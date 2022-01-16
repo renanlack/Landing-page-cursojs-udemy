@@ -22,11 +22,15 @@
 
 <body>
 
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1><a href="#home">LOGO</a></h1>
+            <h1 onclick="getElementeById('close-menu').checked=false" ><a href="#home">LOGO</a></h1>
             <nav>
-                <ul>
+                <ul onclick="getElementeById('close-menu').checked=false">
                     <li><a href="#intro">intro</a></li>
                     <li><a href="#grid-one">grid-one</a></li>
                     <li><a href="#gallery">gallery</a></li>
@@ -234,6 +238,7 @@
     <p><a rel="nofollow" target="_black" href="https://www.linkedin.com/in/renanlackcp/">Feito com <span class="heart">❤</span> por Renan Lack</a></p>
 </footer>
 
+<a class="back-to-top" href="#">➤</a>
 </body>
 
 </html>
