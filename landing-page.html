@@ -12,36 +12,227 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/classes.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
 
 </head>
 
-<body class="main-bg">
+<body>
 
-    <aside class="menu">
+    <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1><a href="#">LOGO</a></h1>
+            <h1><a href="#home">LOGO</a></h1>
             <nav>
                 <ul>
-                    <li><a href="#">intro</a></li>
-                    <li><a href="#">top 3</a></li>
-                    <li><a href="#">gallery</a></li>
-                    <li><a href="#">work</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#grid-one">grid-one</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#grid-two">grid-two</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
             </nav>
         </div>
     </aside>
 
-<section class="main-bg section">
-<h2>The top 100 companies for remote jobs in 2022</h2>
+    <div class="menu-spacing"></div>
+
+<section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+    <div class="intro-text-content">
+        <h2>The top 100 companies for remote jobs in 2022</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente dolorem fugiat ducimus illum, sit quasi cupiditate aliquam aut eos repellendus molestiae optio accusantium. Cum eligendi facere repellat quia aliquid!</p>
+    </div>
+    <div class="intro-img">
+        <img src="./assets/img/undraw_static_assets_rpm6.svg" alt="desenho de um homem segurando a logo do css, uma mulher empurrando uma logo do javascript e por fim outro homem segurando uma logo do html">
+    </div>
+</div>
 </section>
 
-<section class="white-bg section">
+<section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+        <h2>top 3 jobs</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eaque voluptas facere nihil maiores tempore dolores atque ad. Magnam consequatur nam fuga labore harum enim, ad illo recusandae excepturi eligendi!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eaque voluptas facere nihil maiores tempore dolores atque ad. Magnam consequatur nam fuga labore harum enim, ad illo recusandae excepturi eligendi!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eaque voluptas facere nihil maiores tempore dolores atque ad. Magnam consequatur nam fuga labore harum enim, ad illo recusandae excepturi eligendi!</p>
+    </div>
+</section>
 
+<section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">My Grid</h2>
+        <p class="grid-description">Uma breve descrição.</p>
+        <div class="grid">
+            <article>
+                <h3>Teste 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eaque officiis soluta alias ipsa tempora itaque? Dolorem praesentium delectus ex consectetur omnis natus sunt. Harum sed libero est nesciunt eum.</p>
+            </article>
+            <article>
+                <h3>Teste 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eaque officiis soluta alias ipsa tempora itaque? Dolorem praesentium delectus ex consectetur omnis natus sunt. Harum sed libero est nesciunt eum.</p>
+            </article>
+            <article>
+                <h3>Teste 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eaque officiis soluta alias ipsa tempora itaque? Dolorem praesentium delectus ex consectetur omnis natus sunt. Harum sed libero est nesciunt eum.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Gallery/h2>
+        <p class="grid-description">Uma breve descrição.</p>
+        <div class="grid">
+            <div class="gallery-img">
+                <img src="https://source.unsplash.com/random/360x360?r=1555" alt="random image from unsplash">
+            </div>
+            <div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2fe75" alt="random image from unsplash">
+                </div>
+            </div>
+            <div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3fefe" alt="random image from unsplash">
+                </div>
+            </div>
+            <div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4fef" alt="random image from unsplash">
+                </div>
+            </div>
+            <div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5fefe" alt="random image from unsplash">
+                </div>
+            </div>
+            <div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6fefe" alt="random image from unsplash">
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
+<section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+        <h2>Pricing</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eaque voluptas facere nihil maiores tempore dolores atque ad. Magnam consequatur nam fuga labore harum enim, ad illo recusandae excepturi eligendi!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eaque voluptas facere nihil maiores tempore dolores atque ad. Magnam consequatur nam fuga labore harum enim, ad illo recusandae excepturi eligendi!</p>
+
+
+        <div>
+        <table>
+            <caption>Pricing table</caption>
+
+            <thead>
+                <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+                <th>Title 4</th>
+                <th>Title 5</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Content 1</td>
+                    <td>Content 2</td>
+                    <td>Content 3</td>
+                    <td>Content 4</td>
+                    <td>Content 5</td>
+                </tr>
+                <tr>
+                    <td>Content 1</td>
+                    <td>Content 2</td>
+                    <td>Content 3</td>
+                    <td>Content 4</td>
+                    <td>Content 5</td>
+                </tr>
+                <tr>
+                    <td>Content 1</td>
+                    <td>Content 2</td>
+                    <td>Content 3</td>
+                    <td>Content 4</td>
+                    <td>Content 5</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Testando</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    </div>
+</section>
+
+<section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+    <div class="intro-text-content">
+        <h2>The top 100 companies for remote jobs in 2022</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente dolorem fugiat ducimus illum, sit quasi cupiditate aliquam aut eos repellendus molestiae optio accusantium. Cum eligendi facere repellat quia aliquid!</p>
+    </div>
+    <div class="intro-img">
+        <img src="./assets/img/undraw_static_assets_rpm6.svg" alt="desenho de um homem segurando a logo do css, uma mulher empurrando uma logo do javascript e por fim outro homem segurando uma logo do html">
+    </div>
+    <div class="contact-form">
+        
+        <fieldset class="form-grid">
+            <legend>Contact me</legend>
+
+            <div class="form-group">
+                <label for="first-name">First name</label>
+                <input type="text" 
+                name="first-name" 
+                id="first-name"
+                placeholder="Your name">
+            </div>
+
+            <div class="form-group">
+                <label for="last-name">Last name</label>
+                <input type="text" 
+                name="last-name" 
+                id="last-name"
+                placeholder="Your last name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" 
+                name="email" 
+                id="email"
+                placeholder="Your email">
+            </div>
+
+            <div class="form-group full-width">
+                <label for="message">Message</label>
+                <textarea name="message" cols="30"
+                rows="10" placeholder="Your message"></textarea>
+            </div>
+
+            <div class="form-group full-width">
+                <button type="submit">Send message</button>
+            </div>
+
+        </fieldset>
+    </div>
+</div>
+</section>
+
+<footer id="footer" class="white-bg footer">
+    <p><a rel="nofollow" target="_black" href="https://www.linkedin.com/in/renanlackcp/">Feito com <span class="heart">❤</span> por Renan Lack</a></p>
+</footer>
 
 </body>
 
